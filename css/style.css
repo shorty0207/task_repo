@@ -1,0 +1,244 @@
+/*MAIN PAGE STYLES*/
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.d-flex{
+    display: flex;
+}
+.flexColumn{
+    flex-direction: column;
+}
+.cCenter{
+    justify-content: center;
+}
+.sBtw{
+    justify-content: space-between;
+}
+.verticalAlign{
+    align-items: center;
+}
+.ulStyle{
+    padding: 20px ;
+    margin: 0;
+    align-items: center;
+
+}
+.navStyle{
+    height: 80px;
+    background-color: #fffefe;
+    width: 100%;
+}
+.marginLeft10{
+    margin-left: 10px;
+}
+.noDotOnList{
+    list-style-type: none;
+}
+.marginRight0{
+    margin-right: 0;
+}
+.fontSize35{
+    font-size: 35px;
+}
+.fontsize{
+    font-size: 15px;
+}
+.fontStrong{
+    font-family: 'Nerko One', cursive;
+    font-weight: bold;
+}
+.icons{
+    list-style-type: none;
+}
+.iconsStyle a{
+    color: #0c0b0b;
+}
+.iconsStyle a:hover{
+    color: #295fba;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.marginTop{
+    margin-top: auto;
+}
+.paddingLeft30{
+    padding: 30px;
+}
+.linkStyle a {
+    color: #0c0b0b;
+    text-decoration: none;
+    font-family: 'Nerko One', cursive;
+
+}
+.linkStyle a:hover {
+    color: #295fba;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.mainStyle{
+    width: 100%;
+}
+header{
+    width: 100%;
+}
+.headerImg {
+    display: flex;
+    height: 420px;
+    width: 100%;
+    background-size: 420px 100%;
+    opacity: 0.9;
+    position: relative;
+}
+
+.masonStyle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.readingStyle{
+    position: absolute ;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #111111;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+.card{
+    height: 500px;
+    width: 350px;
+    background-color: #faf2f2;
+    margin: 10px;
+}
+.card img {
+    width: 350px;
+    height: 250px;
+}
+.paragraph{
+ margin: 15px;
+    padding: 15px;
+}
+.userName{
+    margin-left: 25px;
+    font-family: 'Nerko One', cursive;
+}
+.textCenter{
+    text-align: center;
+}
+.bestFont {
+    font-family: 'Nerko One', cursive;
+}
+/*REGISTER PAGE STYLES*/
+
+#registerCardOuter{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    margin: auto;
+    top:0;
+    right:0;
+    left:0;
+    bottom:200px;
+    background-color: #fcfcfd;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+.registerMain{
+    opacity: 0.9;
+    background: url("https://i.pinimg.com/originals/03/4b/58/034b588b27ec7bc95cb7cb072da3fc60.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 1050px;
+    position: relative;
+}
+#registerCardInner{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-shadow: 0 4px 8px 0 black ;
+    border-radius: 10px;
+    opacity: 0.9;
+
+}
+.nameInput{
+    padding: 10px;
+    border-radius: 5px;
+    justify-content: center;
+    margin: 10px 20px 0  20px;
+
+
+}
+.nameInput:hover{
+    border: 2px solid #295fba;
+}
+
+.margin5{
+    margin: 5px;
+}
+#signUp{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #128a12;
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+}
+#signUp:hover{
+    color: #c3bdbd;
+    cursor: pointer;
+}
+.fontSize30{
+    font-size: 30px;
+}
+.colorGreen{
+    color: #128a12;
+}
+.colorGrey{
+    color: #727070;
+}
+.linkStyleReg a {
+    color: #faf7f7;
+    text-decoration: none;
+    font-family: 'Nerko One', cursive;
+    font-size: 23px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.linkStyleReg a:hover{
+    cursor: pointer;
+    color: #295fba;
+    transition: 0.3s;
+}
+.iconsReg{
+    margin-top: 15px;
+    list-style-type: none;
+}
+
+/*LOGIN PAGE STYLES*/
+
+.loginMain{
+    opacity: 0.9;
+    background: url("https://img2.goodfon.com/wallpaper/nbig/f/11/material-design-color-geometriia-linii-krasnyi-goluboi-sinii.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 1050px;
+    position: relative;
+}
