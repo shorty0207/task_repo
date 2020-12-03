@@ -76,6 +76,9 @@ body{
 .marginLeft30{
     margin-left: 30px;
 }
+.bold{
+    font-weight: bold;
+}
 .paddingLeft30{
     padding: 30px;
 }
@@ -131,20 +134,32 @@ header{
     width: 100%;
     height: 100%;
     padding: 10px;
+    overflow: hidden;
 }
 .card {
-    height: 500px;
+    height: 350px;
     width: 350px;
-    background-color: #7c6767;
+    background-image: url("https://cdn.pixabay.com/photo/2017/10/27/14/22/christmas-2894445_960_720.jpg");
     margin: 10px;
     border-radius: 10px;
+    box-shadow: 0 4px 8px 0 black ;
 }
 .card img {
     width: 350px;
     height: 250px;
+
+}
+.card div {
+    overflow: hidden;
+    height: 250px;
+}
+.card img:hover{
+    transform: scale(1.3);
+    transition: 2s;
+
 }
 .paragraph{
- margin: 15px;
+     margin: 15px;
     padding: 15px;
 }
 .userName{
@@ -321,11 +336,190 @@ header{
     padding: 8px;
     font-size: 20px;
 }
+/*SINGLE ITEM PAGE STYLES*/
+.singlePageContainer{
+    padding: 25px;
+}
 
+.singlePageContainer img{
+    height: 500px;
+    width: 900px;
 
+}
+.sPgSideParagraph{
+    padding: 40px;
+    font-family: 'Nerko One', cursive;
+}
+.sPgSideButtons{
+    padding-top: 40px;
+}
+.sPgSideButtons button{
+    margin: 2px;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    width: 100%;
+    opacity: 0.8;
+}
+.sPgSideButtons button:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.colorBlue{
+    background-color: #295fba;
+}
+.colorFontBlue{
+    color: dodgerblue;
+}
+.colorSalmon{
+    background-color: salmon;
+}
+.colorIndigo{
+    background-color: #1deebd;
+}
+.colorOrange{
+    background-color: #ef7422;
+}
+.sPgText{
+   padding-left: 20px;
+    padding-bottom: 20px;
+}
+.padding50{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.sPgDescription{
+    width: 900px;
+}
+.width900{
+    width: 900px;
+}
+.sPgSider{
+    padding:25px;
+    width: 100%;
+}
+.sPgSider  img{
+    height: 110px;
+    width: 110px;
 
-
-
+}
+.lineUnder{
+    border-bottom: 1px solid grey;
+}
+.sPgSider  img:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+.padding5{
+    padding: 5px;
+}
+.paddingTop20{
+    padding-top: 50px;
+}
+.sPgFooter{
+    background-color: #0c0b0b;
+    height: 200px;
+    width: 100%;
+}
+.marginRight50{
+    margin-right: 50px;
+}
+.colorWhite{
+    color: white;
+}
+.colorBlack{
+    color: black;
+}
+.deleteModal{
+    height: 200px;
+    width: 400px;
+    margin: auto;
+    top:1800px;
+    right:0;
+    left:0;
+    bottom:200px;
+    background-color: #323234;
+    border-radius: 10px;
+    opacity: 0.8;
+    position: absolute;
+}
+.editPageMain {
+    background-color: #295fba;
+}
+.marginAuto{
+    margin: auto;
+}
+.editModal{
+    height: 200px;
+    width: 400px;
+    margin: auto;
+    top:80px;
+    right:0;
+    left:0;
+    bottom:200px;
+    background-color: #323234;
+    border-radius: 10px;
+    opacity: 0.8;
+    position: absolute;
+}
+.btnYes{
+    margin: auto;
+    color: blanchedalmond ;
+    font-size:  35px;
+    background-color: forestgreen;
+    border-radius: 10px;
+    text-decoration: none;
+    border: none;
+}
+.btnYes:hover{
+    cursor: pointer;
+    background-color: green;
+}
+.btnNo{
+    margin: auto;
+    color: blanchedalmond ;
+    font-size:  35px;
+    background-color: darkred;
+    border-radius: 10px;
+    text-decoration: none;
+    border: none;
+}
+.btnNo:hover{
+    cursor: pointer;
+    background-color: firebrick;
+}
+.modalText{
+    text-align: center;
+    font-size: 35px;
+    padding: 30px;
+    color: white;
+}
+.visitBtn {
+    padding: 10px;
+    background-color: #306e0a;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.visitBtn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: #4aa213;
+}
+.visitBtn a {
+    color: white;
+    font-size: 14px;
+    font-family: 'Nerko One', cursive;
+    text-decoration: none;
+}
+.goToBloggerPage{
+    font-family: 'Nerko One', cursive;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 25px;
+}
 
 /*REGISTER PAGE STYLES*/
 

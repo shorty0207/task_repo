@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="createPostPage.js" defer></script>
+    <script src="https://kit.fontawesome.com/42762d49f1.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap" rel="stylesheet">
+</head>
+<body >
+<main class="registerMain">
+
+    <div class="d-flex fontsize linkStyleReg fontStrong verticalAlign">
+        <div class="marginLeft10 iconsReg"><a href="index.html">HOME</a></div>
+        <div class="marginLeft10 iconsReg"><a href="loginPage.html">LOGIN</a></div>
+        <div class="iconsReg"><a href="registerPage.html">REGISTER</a></div>
+    </div>
+    <div id="registerCardOuter">
+        <div id="registerCardInner">
+            <p class="textCenter bestFont fontSize30 margin5">Welcome to Booksporium </p>
+            <p class="textCenter bestFont fontSize30 marginTop colorGreen">Please sign up</p>
+            <p class="bestFont textCenter marginTop colorGrey">It's quick and easy</p>
+            <div class="textCenter d-flex flexColumn cCenter">
+                <label for="title"></label>
+                <input type="text" id="title" class="nameInput" placeholder="Title">
+
+                <label for="image"></label>
+                <input type="text" id="image" class="nameInput" placeholder="Image">
+
+                <label for="description"></label>
+                <input type="text" id="description" class="nameInput" placeholder="Description">
+
+                <button id="signUp" onClick="createPost()">Create Post</button>
+            </div>
+
+        </div>
+    </div>
+</main>
+</body>
+</html>

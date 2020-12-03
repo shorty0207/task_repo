@@ -24,11 +24,6 @@
       <change beforePath="$PROJECT_DIR$/code.js" beforeDir="false" afterPath="$PROJECT_DIR$/code.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loginPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/loginPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pageForPostEditing.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/particularUser.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/registerPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/registerPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/singlePostPage.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +58,13 @@
       <workItem from="1606760614174" duration="11818000" />
       <workItem from="1606805556507" duration="9212000" />
       <workItem from="1606815906256" duration="24677000" />
-      <workItem from="1606895987917" duration="17464000" />
+      <workItem from="1606895987917" duration="25384000" />
+      <workItem from="1606930285932" duration="1152000" />
+      <workItem from="1606932543468" duration="19000" />
+      <workItem from="1606932573022" duration="15197000" />
+      <workItem from="1606983694419" duration="3103000" />
+      <workItem from="1606986821964" duration="20089000" />
+      <workItem from="1607022640243" duration="8147000" />
     </task>
     <servers />
   </component>
@@ -80,16 +81,23 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="390" y="0" width="585" height="728" key="find.popup" timestamp="1606911249739">
+    <state x="390" y="0" width="585" height="728" key="find.popup" timestamp="1606992234683">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="390" y="0" width="585" height="728" key="find.popup/0.0.1366.728/1366.0.1680.1010@0.0.1366.728" timestamp="1606911249739" />
-    <state x="403" y="168" width="547" height="488" key="run.anything.popup" timestamp="1606836024548">
+    <state x="390" y="0" width="585" height="728" key="find.popup/0.0.1366.728/1366.0.1680.1010@0.0.1366.728" timestamp="1606992234683" />
+    <state x="403" y="168" width="672" height="488" key="run.anything.popup" timestamp="1606937589376">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="403" y="168" width="547" height="488" key="run.anything.popup/0.0.1366.728/1366.0.1680.1010@0.0.1366.728" timestamp="1606836024548" />
     <state x="1862" y="233" width="672" height="677" key="run.anything.popup/0.0.1366.728/1366.0.1680.1010@1366.0.1680.1010" timestamp="1606743070962" />
+    <state x="403" y="168" width="672" height="488" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1606937589376" />
+    <state x="1792" y="68" width="827" height="941" key="search.everywhere.popup" timestamp="1607023313395">
+      <screen x="1366" y="0" width="1680" height="1010" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1680.1010@0.0.1366.728" timestamp="1606993213661" />
+    <state x="1792" y="68" width="827" height="941" key="search.everywhere.popup/0.0.1366.728/1366.0.1680.1010@1366.0.1680.1010" timestamp="1607023313395" />
   </component>
 </project>
