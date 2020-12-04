@@ -17,5 +17,11 @@ function createPost() {
             "Content-Type": "application/json"
         },
         body: JSON.stringify(user)
-    }).then(res => res.json()).then(data => window.location.href = '/task_repo/index.html')
+    }).then(res => res.json()).then(data => {
+        if (data.success) {
+          window.location.href = '/task_repo/index.html'
+        } else {
+          document.getElementById('error').innerText = data.message
+        }
+    } )
 }

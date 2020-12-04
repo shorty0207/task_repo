@@ -21,10 +21,9 @@ function getUserSinglePost() {
 
 function deleteButton(item) {
     if (item.username === sessionStorage.getItem('currentUser')) {
-        return `<button data-id=${item.id} onClick=openDeleteModal(event) >Delete</button>
-<button data-id=${item.id} onClick=window.location.href="/task_repo/pageForEditing.html?id=${item.id}&username=${item.username}">Edit Post</button>
+        return `<button class="myDeleteBtn" data-id=${item.id} onClick=openDeleteModal(event) >Delete</button>
+<button class="myPostBtn" data-id=${item.id} onClick=window.location.href="/task_repo/pageForEditing.html?id=${item.id}&username=${item.username}">Edit Post</button>
 `
-
     }
     else {
         return ''

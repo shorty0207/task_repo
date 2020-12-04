@@ -18,7 +18,11 @@ function editPost(event) {
         },
         body: JSON.stringify(data)
     }).then(res => res.json()).then(data => {
-        window.location.href = `/task_repo/singlePostPage.html?id=${event.target.dataset.id}&author=${sessionStorage.getItem('currentUser')}`
+        if(data.success){
+            window.location.href = `/task_repo/singlePostPage.html?id=${event.target.dataset.id}&author=${sessionStorage.getItem('currentUser')}`
+        }else {
+            document.querySelector('.editingPageError').innerText = data.message
+        }
     } )
 }
 
@@ -31,10 +35,8 @@ function loadData() {
             registerCardOuter.innerHTML += `
         
             <div id="registerCardInner">
-            <p class="textCenter bestFont fontSize30 margin5">Welcome to Booksporium </p>
-            <p class="textCenter bestFont fontSize30 marginTop colorGreen">Please sign up</p>
+            <p class="textCenter bestFont fontSize30 marginTop60 colorGreen">Edit your post</p>
 
-            <p class="bestFont textCenter marginTop colorGrey">It's quick and easy</p>
             <div class="textCenter d-flex flexColumn cCenter">
                 <label for="title"></label>
                 <input type="text" id="title" class="nameInput" value="${data.data.title}" placeholder="Title">
@@ -44,8 +46,12 @@ function loadData() {
 
                 <label for="description"></label>
                 <input type="text" id="description" class="nameInput" value="${data.data.description}" placeholder="Description">
+                
+                <span class="editingPageError"></span>
 
                 <button id="signUp" data-id="${data.data.id}" onclick="openEditPostModal(event)" >Update Post</button>
+                
+                
             </div>
 
         </div>
@@ -54,6 +60,8 @@ function loadData() {
         } )
 }
 function openEditPostModal(event){
+
+
     modalEditing.innerHTML += `
             <div class="editModal">
                     <div class="modalText">Are you sure you want to update this post?</div>

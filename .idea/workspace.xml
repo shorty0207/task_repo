@@ -22,8 +22,16 @@
     <list default="true" id="b5b1bf16-3f62-4e12-85cb-fffb5596bacc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code.js" beforeDir="false" afterPath="$PROJECT_DIR$/code.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/createPostPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/createPostPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/createPostPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/createPostPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/loginPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pageForEditing.html" beforeDir="false" afterPath="$PROJECT_DIR$/pageForEditing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pageForEditing.js" beforeDir="false" afterPath="$PROJECT_DIR$/pageForEditing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/particularUserPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/particularUserPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/particularUserPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/particularUserPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registerPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/registerPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/singlePostPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/singlePostPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +72,9 @@
       <workItem from="1606932573022" duration="15197000" />
       <workItem from="1606983694419" duration="3103000" />
       <workItem from="1606986821964" duration="20089000" />
-      <workItem from="1607022640243" duration="8147000" />
+      <workItem from="1607022640243" duration="9296000" />
+      <workItem from="1607067698351" duration="1199000" />
+      <workItem from="1607072474301" duration="19975000" />
     </task>
     <servers />
   </component>
