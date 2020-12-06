@@ -504,6 +504,9 @@ header{
     text-decoration: none;
     border: none;
 }
+.marginTop50{
+    margin-top: 50px;
+}
 .btnNo:hover{
     cursor: pointer;
     background-color: firebrick;
