@@ -134,11 +134,4 @@ function visitPost(item) {
 
 }
 
-function getAll() {
-    fetch("http://167.99.138.67:1111/getallposts")
-        .then(res => res.json())
-        .then(data => {
-            console.log(data)
-            showAllPosts(data.data)
-        } )
-}
+

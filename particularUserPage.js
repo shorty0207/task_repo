@@ -3,7 +3,6 @@ let wrapper= document.querySelector(".wrapper")
 getUserPosts()
 
 function getUserPosts() {
-    debugger
     const urlParams = new URLSearchParams(window.location.search);
 
     fetch("http://167.99.138.67:1111/getuserposts/" + urlParams.get('author'))

@@ -76,5 +76,5 @@ function openEditPostModal(event){
 function stayOnEditingPage(event){
     modalEditing.innerHTML = ''
 }
-// editPost(event)
+
 loadData()
